@@ -1,16 +1,16 @@
 # FlexRLHF: A Flexible Placement and Parallelism Framework for Efficient RLHF Training
-We present our implementation for the research paper: "FlexRLHF: A Flexible Placement and Parallelism Framework for Efficient RLHF Training." 
-At present, we have released the majority of the FlexRLHF framework's source code. Due to the significant effort required to decouple the framework from our proprietary systems, we have not yet released the complete codebase. However, our team is diligently working to prepare the entire FlexRLHF framework for open-source release.
+We present our demo for the paper: "FlexRLHF: A Flexible Placement and Parallelism Framework for Efficient RLHF Training." 
+Due to integration with internal systems and confidentiality constraints, we are only able to provide a demo version of the code, which illustrates the core concepts and functionality of FlexRLHF.
 
 # 🏃 How to train RLHF in FlexRLHF framework
 ## Run Interleaving Strategy
 ```shell
-python run_interleaving.sh
+sh run_interleaving.sh
 ```
 
 ## Run Flattening Strategy
 ```shell
-python run_flattening.sh
+sh run_flattening.sh
 ```
 # 🌲Code structure
 ```
